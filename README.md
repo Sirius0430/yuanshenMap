@@ -83,6 +83,8 @@ y = 200
 latlng = mercatorToLatlng([x,-y])
 ```
 
+地图示例（poi数据来源于空荧酒馆）：
+![image](https://user-images.githubusercontent.com/54973009/156194870-a7eabb77-1798-4c5b-8e43-f75e83a38951.png)
 
 
 地图来源：空荧酒馆原神地图https://github.com/kongying-tavern/yuan-shen-map
