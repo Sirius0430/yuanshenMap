@@ -29,7 +29,17 @@ let yuanshenLayer = L.tileLayer("http://ddns.minemc.top:10010/geoserver/gwc/serv
     maxBounds: [[0.05648160028151732, -0.03217359309655564], [-0.09078576177883144, 0.07823951528296658]]
 })
 ```
-
+##### 边界及缩放推荐设置
+```javascript
+let map = L.map("map", {
+    layers: [yuanshenLayer],
+    minZoom: 13,
+    maxZoom: 18,
+    center: [0, 0],
+    zoom: 13,
+    maxBounds: [[0.05648160028151732, -0.03217359309655564], [-0.09078576177883144, 0.07823951528296658]]
+})
+```
 #### 附：空荧酒馆坐标系转wgs84经纬度：
 
 ##### xy转经纬度（latlng）
