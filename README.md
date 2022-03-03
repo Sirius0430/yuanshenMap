@@ -29,6 +29,16 @@ let yuanshenLayer = L.tileLayer("http://ddns.minemc.top:10010/geoserver/gwc/serv
     maxBounds: [[0.05648160028151732, -0.03217359309655564], [-0.09078576177883144, 0.07823951528296658]]
 })
 ```
+
+如果可以接受使用更多的时间获取更高的分辨率，请使用detectRetina:true
+```javascript
+let yuanshenLayer = L.tileLayer("http://ddns.minemc.top:10101/{z}/{x}/{y}.png", {
+    tms: true,
+    tranparent: true,
+    detectRetina:true,
+})
+```
+
 ##### 边界及缩放推荐设置
 ```javascript
 let map = L.map("map", {
