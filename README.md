@@ -75,7 +75,7 @@ function latLng2Mercator(latlng) {
 }
 ```
 
-**注意！！**由于空荧酒馆坐标系y轴正方向向上，而wgs84 Mercator坐标系y轴正方向向上，因此需要将xy坐标的y取负后使用再函数转换
+**注意！！**由于空荧酒馆坐标系y轴正方向向下，而wgs84 Mercator坐标系y轴正方向向上，因此需要将xy坐标的y取负后使用再函数转换
 
 ```javascript
 x = 100
