@@ -1,6 +1,9 @@
 ### 使用方法：
 
-#### 以leaflet为例：
+- For `https` : `https://assets.yuanshen.site/tiles/geo/{z}/{x}/{y}.png`
+- For `http` : `http://ddns.minemc.top:10101/{z}/{x}/{y}.png`
+
+#### 以leaflet为例 (http)：
 
 ##### 方式1：wms
 
