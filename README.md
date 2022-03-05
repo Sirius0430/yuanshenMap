@@ -5,12 +5,13 @@
 
 #### 以leaflet为例 (http)：
 
-##### 方式1：wms
+##### 方式1：wms（不建议使用detectRetina）
 
 ```javascript
-let yuanshenLayer = L.tileLayer("http://ddns.minemc.top:10101/{z}/{x}/{y}.png",{
-    tms:true,
-    tranparent:true,
+let yuanshenLayer = L.tileLayer.wms("http://ddns.minemc.top:10010/geoserver/wms", {
+    layers: 'yuanshen:yuanshenMap',
+    format: 'image/png',
+    transparent: true,
 })
 ```
 
