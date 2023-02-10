@@ -15,7 +15,7 @@ let yuanshenLayer = L.tileLayer.wms("http://ddns.minemc.top:10010/geoserver/wms"
 })
 ```
 
-##### 方式2：wmts 使用nginx自制(推荐使用)
+##### 方式2：使用nginx(推荐使用)
 
 ```javascript
 let yuanshenLayer = L.tileLayer("http://ddns.minemc.top:10101/{z}/{x}/{y}.png",{
